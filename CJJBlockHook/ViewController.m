@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 #import "CJJBlockHook.h"
-#import "fishhook.h"
-typedef void (^CommonBlock)(void);
 
 @interface ViewController ()
 @property (nonatomic,copy) void (^theBlock)(void);
