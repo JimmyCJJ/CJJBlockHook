@@ -337,6 +337,7 @@ void replaceBlockInvokeFunction(const void *blockObj)
 void * (*old_Block_copy)(const void *aBlock);
 
 void *my_Block_copy(const void *aBlock){
+    aBlock = old_Block_copy(aBlock);
     struct Block_layout *block;
     if(!aBlock) return NULL;
     block = (struct Block_layout *)aBlock;
