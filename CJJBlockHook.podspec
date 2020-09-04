@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name                  = 'CJJBlockHook'
-s.version               = '1.0.0'
+s.version               = '1.0.1'
 s.license               = { :type => 'MIT'}
 s.summary               = 'CJJBlockHook make the thing that hook the block easier.'
 s.description           = 'hook the block'
