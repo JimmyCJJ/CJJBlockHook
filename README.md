@@ -1,11 +1,6 @@
 # CJJBlockHook
 让交换block的实现变得前所未有的简单
 
-支持pod
-```
-pod 'CJJBlockHook'
-```
-
 此库诞生缘由？
 本意是为了解决以下三道题目，进而把实现的思路以及解决方案分享给大家
 >以下题目都针对于任意`void (^)(void)`形式的`block`:
