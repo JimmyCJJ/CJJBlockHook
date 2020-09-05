@@ -342,7 +342,7 @@ void *my_Block_copy(const void *aBlock){
     if(!aBlock) return NULL;
     block = (struct Block_layout *)aBlock;
     replaceBlockInvokeFunction(block);
-    return old_Block_copy(block);
+    return (void *)aBlock;
 }
 
 //所有block调用前都会执行blockhookLog,这里的实现就是简单的将block对象的函数符号打印出来！

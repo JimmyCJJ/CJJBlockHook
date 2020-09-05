@@ -56,7 +56,7 @@
 		0A6047D424F60D22002DCA5F /* CJJBlockHookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJJBlockHookUITests.m; sourceTree = "<group>"; };
 		0A6047D624F60D22002DCA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A60FCA524FE53B20020E35E /* CJJBlockHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJJBlockHook.h; sourceTree = "<group>"; };
-		0A60FCA624FE53B20020E35E /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		0A60FCA624FE53B20020E35E /* fishhook.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = fishhook.c; sourceTree = "<group>"; };
 		0A60FCA724FE53B20020E35E /* blockhook-arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "blockhook-arm64.s"; sourceTree = "<group>"; };
 		0A60FCA824FE53B20020E35E /* blockhook-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = "blockhook-x86_64.s"; sourceTree = "<group>"; };
 		0A60FCA924FE53B20020E35E /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
